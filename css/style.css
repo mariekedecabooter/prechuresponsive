@@ -1,0 +1,109 @@
+.eerstecontainer{
+    background: aqua;
+}
+
+.tweedecontainer{
+    background: green;
+}
+
+.vierkant{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.derdecontainer{
+    background: blue;
+}
+
+.blok{
+    height: 50px;
+    width: 50px;
+    background: purple;
+}
+
+/**Prechu**/
+/**ZEER BELANGRIJK DE CSS HIERONDER OS DE MOBILE CSS**/
+.iphone{
+ /**enkel voor slider positioning absolute
+    left: 0px;
+    top: 0px;**/
+    width: 300px;
+    margin-top: 15px;
+}
+
+#carouselExampleControls > div > div > div > div{
+    top: 0px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h2 > small{
+    font-size: 26px;
+}
+
+#cirkel1{
+    background: #5094f2;
+}
+
+#cirkel2{
+    background: #d94748;
+}
+
+#cirkel3{
+    background: #ebbb11;
+    
+}
+
+h3{
+    color: #98bcf6;
+    font-size: 20px;
+}
+
+p{
+    color: #c1c1c1;
+    font-size: 14px;
+
+}
+
+h4{
+    font-size: 42px;
+    color: #6f7173;
+    font-weight: 400;
+}
+
+#artikel > p:nth-child(1){
+    font-size: 26px;
+    color: #6f7173;
+}
+
+#artikel > p:nth-child(2){
+    font-size: 15px;
+    color: #6f7173;
+    line-height: 2;
+}
+
+
+
+/***Media queries (altijd onderaan plaatsen***/
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up) SM*/
+@media (min-width: 576px) {  }
+
+/*// Medium devices (tablets, 768px and up) MD*/
+@media (min-width: 768px) {  }
+
+/*// Large devices (desktops, 992px and up) LG*/
+@media (min-width: 992px) {
+    body > nav > div > div{
+        height: 90px;
+    } }
+
+/*// Extra large devices (large desktops, 1200px and up) XL*/
+@media (min-width: 1200px) {  }
